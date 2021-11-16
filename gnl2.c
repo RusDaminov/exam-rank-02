@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <fcntl.h>
+
 int  get_next_line (char **line)
 {
     int i;
