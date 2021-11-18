@@ -39,8 +39,8 @@ int check(char *str, char c, int i)
 	n = -1;
 	while(++n < i)
 		if (str[n] == c)
-			return (0);
-	return (1);
+			return (1);
+	return (0);
 }
 
 void inter(char *str1, char *str2)
@@ -51,7 +51,7 @@ void inter(char *str1, char *str2)
 	i = -1;
 	while (str1[++i])
 	{
-		if (check(str1, str1[i], i))
+		if (!check(str1, str1[i], i))
 		{
 			j = -1;
 			while (str2[++j])
