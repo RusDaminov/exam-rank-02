@@ -20,7 +20,7 @@
 //За ним последует новая строка.
 //Если количество аргументов не равно 2, программа отображает новую строку.
 //Примеры:
-//$>./inter "padinton" "aqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+//$>./inter "padinton" "aqefwptdjetyiytjneytjoeyjnejeyj" | cat -e
 //        padinto$
 //$>./inter ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
 //        df6ewg4$
